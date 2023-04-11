@@ -1,0 +1,81 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "paths": {
+            "src/*": [
+                "src/*"
+            ],
+           
+            "@pages": [
+                "pages"
+            ],
+            "@pages/*": [
+                "pages/*"
+            ],
+            "@services": [
+                "services"
+            ],
+            "@services/*": [
+                "services/*"
+            ],
+            "@store": [
+                "store"
+            ],
+            "@store/*": [
+                "store/*"
+            ],
+            "@lib": [
+                "lib"
+            ],
+            "@lib/*": [
+                "lib/*"
+            ],
+            "@interfaces": [
+                "interfaces"
+            ],
+            "@interfaces/*": [
+                "interfaces/*"
+            ],
+            "@model": [
+                "model"
+            ],
+            "@model/*": [
+                "model/*"
+            ],
+            "@auth": [
+                "model/Auth"
+            ],
+            "@common": [
+                "model/Common"
+            ],
+            "@component": [
+                "component"
+            ],
+            "@component/*": [
+                "component/*"
+            ],
+            "@routes": [
+                "routes"
+            ],
+            "@routes/*": [
+                "routes/*"
+            ],
+            "@hooks": [
+                "hooks"
+            ],
+            "@hooks/*": [
+                "hooks/*"
+            ],
+            "@messages": [
+                "messages"
+            ],
+            "@messages/*": [
+                "messages/*"
+            ],
+            "@languageConvertor": [
+                "languageConvertor"
+            ]
+        }
+    }
+}

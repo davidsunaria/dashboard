@@ -3,7 +3,7 @@ import './App.css';
 import AppRouter from './routes';
 import { BrowserRouter } from "react-router-dom"
 import { ProSidebarProvider } from 'react-pro-sidebar';
-import './styles.scss';
+import './';
 
 
 function App() {
