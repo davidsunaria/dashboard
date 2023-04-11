@@ -1,10 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import AppRouter from './routes';
+import { BrowserRouter } from "react-router-dom"
+import { ProSidebarProvider } from 'react-pro-sidebar';
+import './styles.scss';
+
 
 function App() {
   return (
     <div className="App">
-      l89l89
+      <BrowserRouter>
+        <ProSidebarProvider>
+          <AppRouter />
+        </ProSidebarProvider>
+      </BrowserRouter>
     </div>
   );
 }
